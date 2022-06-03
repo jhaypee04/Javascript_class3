@@ -5,12 +5,12 @@
 //     // Code that gets executed as long as the condition is true
 // }
 
-// let weeks = 0; // initialized weeks with 0
+// let weeks = 8; // initialized weeks with 0
 
-// while (8) { // Condition weeks < 
+// while ( weeks > 0 ) { // Condition weeks < 
 //     console.log(weeks);
 //     // weeks = weeks + 1;//Condition to end the loop
-//     weeks++ ;//Statement or rather closing statement
+//     weeks-- ;//Statement or rather closing statement
 // }
 
 // Work
@@ -45,16 +45,10 @@
 //     // Code to be executed
 // }
 
-// Here is the flow of a for loop:
-// 1. initialize the variables.
-// 2. Check the condition.
-// 3. If the condition is true, execute the code block. If the condition is false, the loop will end here.
-// 4. Perform the statement (the third part, for example, i++).
-// 5 Go back to step 2.
 
-for ( let weeks = 0; weeks < 10; weeks++) {
-    console.log(weeks);
-}
+// for ( let weeks = 0; weeks < 10; weeks++) {
+//     console.log(weeks);
+// }
 
 // Work 2
 // count down to the months of the year using for loop
