@@ -10,7 +10,7 @@
 
 //  console.log( arr[1] );  // Accessing the values from the arrays
  
- // Overriding the values in am array
+ // Overriding the values in an array
 //  arr[1] = "Fola";
 
 //  console.log( arr[1] );
@@ -25,8 +25,8 @@
 //  console.log( arr.length );
 
  // Deleting values from arrays
- // pop (method)
- // shift (method)
+ // pop () //method
+ // shift () //method
 //  console.log(arr);
 //  arr.pop(); // Deletes the last value(item)
 //  console.log(arr);
@@ -34,7 +34,7 @@
 //  console.log(arr);
 
 //  Adding values to arrays
-// push (method)
+// push () //method adds value from the last index
 
 // arr.push("PrinceWill");
 // console.log(arr);
