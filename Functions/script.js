@@ -91,30 +91,32 @@
 // Nesting Functions
 // Having a function within a function
 
-function outerFunction() {
-    console.log("Outer function");
+// function outerFunction() {
+//     console.log("Outer function");
 
-    function innerFunction() {
-        console.log("Inner function");
-    }
+//     function innerFunction() {
+//         console.log("Inner function");
+//     }
 
-    innerFunction();
-}
-outerFunction();
+//     innerFunction();
+// }
+// outerFunction();
 
-// Exercise
-// What value is output into the console?
-let val = 10;
-function tester(val){
-    val += 10; // val = val + 10
-    if(val < 100){
-        return tester(val);
-    }
-    return val;
-}
-tester(val);
-console.log(val);
+// // Exercise
+// // What value is output into the console?
+// let val = 10;
+// function tester(val){
+//     val += 10; // val = val + 10
+//     if(val < 100){
+//         return tester(val);
+//     }
+//     return val;
+// }
+// tester(val);
+// console.log(val);
 
 //Explain it
 // Post explanation to the google classroom
 // 10 Marks
+
+
