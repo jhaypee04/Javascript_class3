@@ -9,7 +9,7 @@
 
 // while ( weeks > 0 ) { // Condition weeks < 
 //     console.log(weeks);
-//     // weeks = weeks + 1;//Condition to end the loop
+//     // weeks = weeks - 1;//Condition to end the loop
 //     weeks-- ;//Statement or rather closing statement
 // }
 
