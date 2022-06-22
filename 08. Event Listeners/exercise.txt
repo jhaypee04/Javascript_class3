@@ -1,0 +1,16 @@
+// Exerecise 1
+//  Personalize your web pages. Allow users to change the theme of the page display
+// between regular mode and dark mode.
+// 1. Within a simple HTML document, set up a Boolean value variable to use that will toggle the color modes.
+// 2. Use window.onclick to set up a function that outputs a message in the console when clicked. You can use the value of the Boolean variable.
+// 3. Within the function, add a condition that checks whether the darkMode variable is true or false.
+// 4. If false, then update the page style to a background color of black and a font
+// color of white.
+// 5. Add an else response that changes the color of the background to white and
+// the color of the text to black. Also, update the value of the darkMode variable
+// accordingly.
+
+Exercise 2: Dynamically change the background of each div's color
+1. Create several divs with color names in textContent.
+2.Add JavaScript to add click event listeners to each element, and as each element is clicked, update the
+background color of the body to match the color name in the div.

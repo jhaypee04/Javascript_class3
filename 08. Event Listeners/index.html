@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listeners</title>
+</head>
+<body>
+    <h1>Event Listeners</h1>
+    <h2>Three Methods of adding Events to web pages!</h2>
+    <ol>
+        <li>HTML method</li>
+        <li>on-prefix (eg .onclick, .onload etc</li>
+        <li>addEventListener method</li>
+    </ol>
+    <!-- The HTML Method -->
+    <p id="unique" onclick="magic()">Click here for magic!</p>
+     <script>
+        function magic(){
+            document.querySelector('#unique').style.color = 'purple';
+            document.querySelector('#unique').style.fontWeight = 'bold';
+        }
+     </script>
+
+     <!-- The on-prefix Method -->
+     <p id="anotherOne" >The second method; using Javascript to insert events (on-prefic method)</p>
+     <script>
+        function magic1(){
+            document.querySelector('#anotherOne').style.color = 'green';
+            document.querySelector('#anotherOne').style.fontWeight = 'bold';
+        }
+        document.querySelector('#anotherOne').onclick = function(){ magic1();}
+     </script>
+
+    <!-- addEventListener Method -->
+    <p id="thirdMethod">The Third method using addEventListener</p>
+    <script>
+        function magic3(){
+            document.querySelector('#thirdMethod').style.color = 'red';
+            document.querySelector('#thirdMethod').style.fontWeight = 'bold';
+        }
+        document.querySelector('#thirdMethod').addEventListener('click', magic3 );
+    </script>
+
+    <!-- Assignment -->
+    <!-- 1. Write a short note stating what you understand by the three different methods of adding events to a web page
+    2. Using your own disgression, show an example for each of the three methods. -->
+</body>
+</html>
