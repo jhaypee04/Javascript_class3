@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event Effects</title>
+</head>
+<body>
+    <h1>Mouse Event Effects</h1>
+    <div class="element"></div>
+
+    <script>
+        var blankElement = document.querySelector('.element');
+        blankElement.innerHTML = 'Hello World';
+        blankElement.style.width = '100px';
+        blankElement.style.height = '100px';
+        // default bgColor
+        blankElement.style.backgroundColor = 'orange';
+
+        function changeDivBgColor ( a, b ) {
+            console.log( 'Color is : ' + a );
+            console.log( 'Event type is : ' + b );
+            blankElement.style.backgroundColor = a;
+        }
+
+        blankElement.addEventListener( 'mousedown', function(){
+            changeDivBgColor('green', 'mousedown');
+        });
+
+        blankElement.addEventListener( 'mouseover', function(){
+            changeDivBgColor('red', 'mouseover');
+        });
+       
+        blankElement.addEventListener( 'mousemove', function(){
+            changeDivBgColor('yellow', 'mousemove');
+        });
+       
+        blankElement.addEventListener( 'mouseup', function(){
+            changeDivBgColor('blue', 'mouseup');
+        });
+        // Assignment
+        // Research more on: What is a callback function?
+        
+    </script>
+</body>
+</html>
