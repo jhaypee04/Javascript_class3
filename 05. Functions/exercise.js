@@ -117,3 +117,10 @@ console.log(d > b && b > a);
 // let check = (val % 2) ? `Odd` : `Even`;
 // check = `${val} is ${check}`;
 // console.log(check);
+
+
+// Self-Check
+// 1. Set a variable name and assign a function to it. Create a function expression
+// with one parameter that outputs a provided argument to the console.
+// 2. Pass an argument into the function.
+// 3. Create the same function as a normal function declaration.

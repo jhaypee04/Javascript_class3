@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<body>
+    <h2>Count Down using Recursive Function</h2>
+    <script>
+        var counter = 10;
+
+        function countdown( a ){
+            console.log( a );
+            if ( a < 1 ) {
+                return countdown(); // Undefined
+            } else if ( a > 1) {
+                countdown( --a); // Recursive
+            }
+        }
+        countdown(counter);
+
+        // Part 2
+        console.log('Part 2');
+        function countdown2 ( param ) {
+            console.log(param);
+            if ( param > 0 ) {
+                --param;
+                return countdown2( param );
+            }
+            return;
+        }
+        countdown2(counter);
+    </script>
+</body>
+</html>
